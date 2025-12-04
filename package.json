@@ -1,0 +1,16 @@
+{
+  "name": "payment-channel-deployment",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Deploy PaymentChannel contract to Starknet",
+  "scripts": {
+    "deploy": "node deploy.mjs",
+    "deploy-official": "node deploy-official.mjs",
+    "test-account": "node test-account.mjs",
+    "deploy-settlement": "node deploy-settlement.mjs",
+    "deploy-gift-vault": "node deploy-gift-vault.mjs"
+  },
+  "dependencies": {
+    "starknet": "^8.9.0"
+  }
+}
